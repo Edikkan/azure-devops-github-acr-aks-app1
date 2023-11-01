@@ -18,7 +18,7 @@ variables:
 
   # Agent VM image name
   pool:
-   name: SOUND
+   name: Azure Pipelines
    demands:
     - agent.name -equals SOUND
 
