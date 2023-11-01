@@ -17,10 +17,10 @@ variables:
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
-  pool:
-    name: 'Default'
-    demands:
-     - agent.name -equals SOUND
+pool:
+  name: Default
+  demands:
+    - agent.name -equals SOUND
 
 stages:
 - stage: Build
