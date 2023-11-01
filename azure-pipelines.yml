@@ -18,7 +18,7 @@ variables:
 
   # Agent VM image name
   pool:
-   name: Default
+   name: SOUND
    demands:
     - agent.name -equals SOUND
 
