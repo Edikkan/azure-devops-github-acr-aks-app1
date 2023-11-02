@@ -18,9 +18,8 @@ variables:
 
   # Agent VM image name
 pool:
-  name: Default
-  demands:
-    - agent.name -equals SOUND
+  name: 'default'
+  vmImage: 'SOUND'
 
 stages:
 - stage: Build
