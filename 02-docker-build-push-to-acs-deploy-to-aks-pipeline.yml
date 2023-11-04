@@ -50,8 +50,6 @@ stages:
   jobs:
   - deployment: Deploy
     displayName: Deploy
-    pool:
-      vmImage: $(vmImageName)
     environment: 'Edikkanazuredevopsgithubacraksapp1.default'
     strategy:
       runOnce:
