@@ -17,9 +17,8 @@ variables:
   tag: '$(Build.BuildId)'
 
 pool: 
-   name: Default
-   demands:
-    - agent.name -equals SOUND
+   name: "Default"
+   vmAgent: "SOUND"
 
 stages:
 - stage: Build
